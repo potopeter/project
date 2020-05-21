@@ -189,7 +189,7 @@ h2, h3, h4{
 }
 
 
-@media (max-width:1050px){
+@media (max-width:1028px){
     #title{
         text-align: center;
     }
@@ -199,8 +199,6 @@ h2, h3, h4{
         position: static;
     }
 
-    .pricing-box{
-        margin: 3% 0;
-    }
+    
     
 }
