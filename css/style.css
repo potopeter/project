@@ -151,10 +151,10 @@ h2, h3, h4{
 #pricing{
     padding: 100px;
     text-align: center;
-    font-size: 18px;
+  
 }
 .pricing-box{
-    margin-right: 3% 2%;
+    padding: 3% 2%;
 }
 
 
@@ -189,7 +189,7 @@ h2, h3, h4{
 }
 
 
-@media (max-width:1028px){
+@media (max-width:1050px){
     #title{
         text-align: center;
     }
@@ -199,6 +199,23 @@ h2, h3, h4{
         position: static;
     }
 
+    .pricing-box{
+        margin: 3% 0;
+    }
     
-    
+}
+
+@media (max-width: 450px){
+    #pricing{
+        padding: 10px;
+        text-align: center;
+    }
+
+    body{
+        max-width: 100%;
+    }
+
+    .title-description{
+        font-size: 50px;
+    }
 }
